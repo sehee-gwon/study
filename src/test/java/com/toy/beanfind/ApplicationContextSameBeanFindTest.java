@@ -1,4 +1,4 @@
-package com.example.toy.beanfind;
+package com.toy.beanfind;
 
 import com.toy.member.MemberRepository;
 import com.toy.member.MemoryMemberRepository;

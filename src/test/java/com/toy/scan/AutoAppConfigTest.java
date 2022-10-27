@@ -1,4 +1,4 @@
-package com.example.toy.scan;
+package com.toy.scan;
 
 import com.toy.AutoAppConfig;
 import com.toy.member.MemberService;

@@ -1,4 +1,4 @@
-package com.example.toy.member;
+package com.toy.member;
 
 import com.toy.AppConfig;
 import com.toy.member.Grade;

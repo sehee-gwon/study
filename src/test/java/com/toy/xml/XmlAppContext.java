@@ -1,4 +1,4 @@
-package com.example.toy.xml;
+package com.toy.xml;
 
 import com.toy.member.MemberService;
 import org.junit.jupiter.api.Test;

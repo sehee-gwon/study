@@ -1,8 +1,7 @@
-package com.example.toy.singleton;
+package com.toy.singleton;
 
 import com.toy.AppConfig;
 import com.toy.member.MemberService;
-import com.toy.member.MemberServiceImpl;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

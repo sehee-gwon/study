@@ -1,4 +1,4 @@
-package com.example.toy.scan.filter;
+package com.toy.scan.filter;
 
 @MyExcludeComponent
 public class BeanB {

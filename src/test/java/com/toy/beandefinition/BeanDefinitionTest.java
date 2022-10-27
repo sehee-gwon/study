@@ -1,4 +1,4 @@
-package com.example.toy.beandefinition;
+package com.toy.beandefinition;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

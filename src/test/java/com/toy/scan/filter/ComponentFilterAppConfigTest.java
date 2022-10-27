@@ -1,4 +1,4 @@
-package com.example.toy.scan.filter;
+package com.toy.scan.filter;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;

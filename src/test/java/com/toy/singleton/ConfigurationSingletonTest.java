@@ -1,4 +1,4 @@
-package com.example.toy.singleton;
+package com.toy.singleton;
 
 import com.toy.AppConfig;
 import com.toy.member.MemberRepository;
