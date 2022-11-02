@@ -55,7 +55,15 @@
   - 생성자 주입을 선택해라!
   - 롬복과 최신 트렌드
   - 조회 빈이 2개 이상 - 문제
+  - @Autowired 필드 명, @Qualifier, @Primary
+  - 애노테이션 직접 만들기
+  - 조회한 빈이 모두 필요할 때, List, Map
+  - 자동, 수동의 올바른 실무 운영 기준
 - 빈 생명주기 콜백
+  - 빈 생명주기 콜백 시작
+  - 인터페이스 InitializingBean, DisposableBean
+  - 빈 등록 초기화, 소멸 메서드
+  - 애노테이션 @PostConstruct, @PreDestroy
 - 빈 스코프
 - 다음으로
     - 다음으로
