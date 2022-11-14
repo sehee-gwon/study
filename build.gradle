@@ -1,6 +1,4 @@
 plugins {
-    id 'org.springframework.boot' version '2.7.4'
-    id 'io.spring.dependency-management' version '1.0.14.RELEASE'
     id 'java'
 }
 
@@ -19,24 +17,14 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-batch'
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'org.springframework.boot:spring-boot-starter-web-services'
-    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.2'
-    compileOnly 'org.projectlombok:lombok'
-    developmentOnly 'org.springframework.boot:spring-boot-devtools'
-    annotationProcessor 'org.projectlombok:lombok'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    testImplementation 'org.springframework.batch:spring-batch-test'
-
-    //runtimeOnly 'com.h2database:h2'
-    //implementation 'org.springframework.boot:spring-boot-starter-security'
-    //testImplementation 'org.springframework.security:spring-security-test'
-
-    implementation 'mysql:mysql-connector-java'
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.hibernate:hibernate-entitymanager:5.3.10.Final'
+    implementation 'javax.xml.bind:jaxb-api:2.3.0'
+    implementation 'com.h2database:h2:1.4.199'
 }
 
-tasks.named('test') {
-    useJUnitPlatform()
+// https://www.inflearn.com/questions/17098
+sourceSets {
+    main {
+        output.resourcesDir = java.outputDir
+    }
 }
