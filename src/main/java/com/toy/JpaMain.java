@@ -1,6 +1,6 @@
 package com.toy;
 
-import com.toy.domain.Member;
+import com.toy.domain.Book;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -16,16 +16,19 @@ public class JpaMain {
 
         tx.begin();
 
-        Member member = new Member();
+        try {
+            Book book = new Book();
+            book.setName("JPA");
+            book.setAuthor("김영한");
 
-        member.setId(1L);
-        member.setName("HelloA");
+            em.persist(book);
 
-        em.persist(member);
-
-        tx.commit();
-
-        em.close();
+            tx.commit();
+        } catch (Exception e) {
+            tx.rollback();
+        } finally {
+            em.close();
+        }
 
         emf.close();
     }
