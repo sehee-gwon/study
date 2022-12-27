@@ -1,0 +1,1 @@
+package com.toy._01_creational_patterns._05_prototype;

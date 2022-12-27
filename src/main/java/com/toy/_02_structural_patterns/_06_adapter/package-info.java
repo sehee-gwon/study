@@ -1,0 +1,1 @@
+package com.toy._02_structural_patterns._06_adapter;
